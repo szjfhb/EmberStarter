@@ -1,0 +1,1160 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"filter",
+				"filteredRentals"
+			],
+			[
+				"re",
+				"rentals"
+			],
+			[
+				"t",
+				"Type"
+			],
+			[
+				"l",
+				"Location"
+			],
+			[
+				"label",
+				"labellength"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/components/filter-listing.js",
+			"settings":
+			{
+				"buffer_size": 332,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"emb",
+				"Set Syntax: EmberScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"ember",
+				"Set Syntax: EmberScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sember",
+				"Set Syntax: EmberScript"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"shtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"sjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"sxml",
+				"Set Syntax: XML"
+			],
+			[
+				"scs",
+				"Set Syntax: C#"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"s",
+				"Set Syntax: XML"
+			],
+			[
+				"Package Control: upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"UDP",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"SXML",
+				"Set Syntax: XML"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"XML",
+				"Set Syntax: XML"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"file",
+				"Tag: Fold Attributes"
+			],
+			[
+				"tag",
+				"Tag: Insert as Tag"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 316.0,
+		"history":
+		[
+			"py",
+			"update",
+			"tag",
+			"help",
+			"?",
+			"help",
+			"clear",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/controllers",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/helpers",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/mirage",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/mirage/factories",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/mirage/scenarios",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/models",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/routes",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/components"
+	],
+	"file_history":
+	[
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/posts.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/models/people.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/components/rental-listing.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/models/rental.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/about.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/index.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/routes/index.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/routes/my-route.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/my-route.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/git-pulls.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/routes/git-pulls.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/routes/posts.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/styles/app.css",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/helpers/rental-property-type.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/router.js",
+		"/C/Users/oxiong/AppData/Local/Temp/7zOB6A3.tmp/PSLOG_20160408_100413.233.log",
+		"/C/Users/oxiong/AppData/Local/Temp/7zOF375.tmp/PSLOG_20160408_100420.843.log",
+		"/C/Users/oxiong/AppData/Local/Temp/7zO19D8.tmp/PSLOG_20160408_104858.688.log",
+		"/C/Users/oxiong/AppData/Local/Temp/7zOB00F.tmp/PSLOG_20160413_131015.845.log",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/Proj/presentationstudioDev/PSBin Dev.bat",
+		"/C/temp/pas_dataengine.log",
+		"/C/temp/PSLOG_20160406_153227.000.log",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/ember-cli-build.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/package.json",
+		"/C/Users/oxiong/AppData/Local/Temp/_tc/PSLOG_20160324_114528.384.log",
+		"/D/Proj/Presentationstudio/Bin/WWWRoot/Config/PAS_RPT_DataIdMapping.xml",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/routes/devs.js",
+		"/C/Users/oxiong/AppData/Local/Temp/_tc/pas_dataengine.log",
+		"/C/Users/oxiong/AppData/Local/Temp/7zOFDA4.tmp/PSLOG_20160406_153227.000.log",
+		"/C/Users/oxiong/AppData/Local/Temp/7zO42C0.tmp/pas_dataengine.log",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/application.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/components/people-list.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/test-support.css",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/my-app.css",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/controllers/index.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/mirage/config.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/bower_components/Faker/lib/image.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/EA-s.JPG",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/components/filter-listing.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/bower_components/ember-qunit-notifications/bower.json",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/bower_components/ember-qunit-notifications/README.md",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.ember-cli",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.gitignore",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.jshintrc",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.travis.yml",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.watchmanconfig",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/node_modules/ember-cli/lib/broccoli/ember-app.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/bower.json",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.editorconfig",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.bowerrc",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/components/filter-listing.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/public/crossdomain.xml",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/contact.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/vendor.css",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/index.html",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/testem.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/templates/devs.hbs",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/README.md",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/public/robots.txt",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/components/people-list.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/components/rental-listing.js",
+		"/C/Users/oxiong/AppData/Local/Temp/7zO95E0.tmp/PSLOG_20160328_092657.717.log",
+		"/C/Users/oxiong/AppData/Local/Temp/7zOB544.tmp/PSLOG_20160328_095713.849.log",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/routes/about.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/my-app-242177e5ad124244daf4a3e86f470c9d.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/my-app-d41d8cd98f00b204e9800998ecf8427e.css",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/vendor-a69a0f0fcf9fff8b4bbbe35c059e0f6f.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/resolver.js",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/app.js",
+		"/C/Program Files/Sublime3/Data/Packages/User/EmberScript.sublime-settings",
+		"/C/Program Files/Sublime3/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Program Files/Sublime3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Program Files/Sublime3/Data/Packages/User/Distraction Free.sublime-settings",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.git/config",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.git/COMMIT_EDITMSG",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.git/index",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/myEmber.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/myself.htm",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyApp/README.md",
+		"/F/DownLoads/Study/ember-JS/emberchart/MyApp/app/app.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/packaging/README.md",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/README.md",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/karma.conf.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/VERSION",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/test.htm",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/config/environment.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/config/ember-try.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/blueprints/ember-charts/index.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/example.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/index.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/dist/ember-charts.min.js",
+		"/C/Users/oxiong/AppData/Local/Temp/7zOEC77.tmp/pas_portfolio.log",
+		"/C/Users/oxiong/AppData/Local/Temp/7zO3F67.tmp/HttpClient_20160324_114529.log",
+		"/D/Proj/Presentationstudio/ReportingServer/Application/Reportal/Resources/js/jquery-1.4.4-vsdoc.js",
+		"/C/Users/oxiong/AppData/Local/Temp/7zOB42D.tmp/HttpClient_20160324_155900.log",
+		"/C/Users/oxiong/AppData/Local/Temp/tmp34A2.tmp.xml",
+		"/C/Users/oxiong/AppData/Local/Temp/_tc/pas_portfolio.log",
+		"/C/Users/oxiong/AppData/Local/Temp/_tc/HttpClient_20160324_114529.log",
+		"/C/Users/oxiong/AppData/Local/Temp/tmpF7F2.tmp.xml",
+		"/C/Users/oxiong/AppData/Local/Temp/_tc/PSLOG_20160324_113929.183.log",
+		"/D/Proj/Presentationstudio/Bin/WWWRoot/Config/PASSpecialDataIdMapping.xml",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/app/templates/components/chart-component.hbs",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/app/components/bubble-chart.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/app/components/scatter-chart.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/dist/ember-charts.css",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/dist/ember-charts.js",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/package.json",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/testem.json",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/.ember-cli",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/LICENSE",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/LICENSE.md",
+		"/D/Proj/Presentationstudio/Bin/WWWRoot/Config/DataIdMapping.xml",
+		"/C/temp/分享地址.txt",
+		"/C/temp/11365.txt",
+		"/E/oxiong/Desktop/readme.txt",
+		"/C/Users/oxiong/AppData/Local/Temp/7zOA418.tmp/PSLOG_20160316_212308.949.log",
+		"/C/Program Files (x86)/Morningstar/Office/WWWRoot/Config/MStarAWDConfig.xml",
+		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/Gruntfile.js",
+		"/F/backup/Tencent/ReadMe.txt",
+		"/C/Users/oxiong/AppData/Local/Temp/7zO2DB9.tmp/PSLOG_20160314_170313.910.log",
+		"/D/Proj/Presentationstudio/Bin/WWWRoot/PresentationStudio/Messages/PresentationStudio.xml",
+		"/D/Proj/Presentationstudio/ReportingServer/Application/PSBatch/ContactUsInfo.xml",
+		"/C/Users/oxiong/AppData/Local/Temp/7zO12C2.tmp/百度云破解说明.txt",
+		"/D/Proj/Presentationstudio/ReportingAppStartup/MStarAwdConfig.cs",
+		"/D/Proj/Presentationstudio/Bin/WWWRoot/Config/MStarAWDConfig.xml",
+		"/D/Proj/Presentationstudio/ReportingServer/Application/PSBatch/xml/messages.xml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"C:\\Program Files (x86)\\Morningstar\\Office\\WWWRoot\\",
+			"C:\\Program Files (x86)\\Morningstar\\Office\\WWWRoot\\Practice"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<workbook",
+			"exception",
+			"CIPASDataEngine::GetMultiAccountsPASData Success",
+			"CIPASDataEngine::CalOthers Reset Param ",
+			"ret6m=\"5.9",
+			"ret6m",
+			"pa2127",
+			"6 Mo %",
+			"pa2127",
+			" ",
+			"  ",
+			"*",
+			"||",
+			"\\n",
+			"nav",
+			"failed",
+			"a.tag",
+			"Odin's First Ember Project",
+			"model",
+			"ember",
+			"lodash",
+			"lodash-node",
+			"lodash",
+			"<work",
+			"6 mo",
+			"XIUSA0010V;XI",
+			"PM493",
+			"4.6",
+			"4.46",
+			"stopPropagation",
+			"ajax",
+			"cpro.baidustatic.com",
+			"baidu.com",
+			"172",
+			"main",
+			" \"",
+			"+",
+			"exception",
+			"timeperiod",
+			"172",
+			"<workbook",
+			"<workbook ",
+			"exception",
+			">email",
+			">mail",
+			"mail",
+			"contact us",
+			"contact",
+			"about",
+			"version",
+			"Version",
+			">about",
+			"about",
+			"WelcomeScreen",
+			"welcomescreen",
+			"contact",
+			"contact ",
+			"Send feedback",
+			"welcomescreen",
+			"<",
+			"marginleft",
+			"MarginLeft",
+			"<grid ",
+			"<grid",
+			"margin",
+			"http://reportportal.morningstar.com/",
+			"help",
+			"IE",
+			"command",
+			"exception",
+			"2500.00",
+			"2500",
+			"63388.5",
+			"63388.52",
+			"exception",
+			"rolling returns",
+			"timeser",
+			"table",
+			"exception",
+			"PD001",
+			"pd001",
+			"pd102",
+			"\\n\\n",
+			"\\N\\N",
+			"-",
+			"IR003",
+			"Return Date",
+			"DT008",
+			"Return Date",
+			"DT015",
+			"IR003",
+			"DT001",
+			"Net",
+			"NetReturn",
+			"DT01B",
+			"PD002",
+			"DT01B",
+			"Return Date",
+			"DT015",
+			"Inflation Adjusted",
+			"IR003",
+			"IR100",
+			"HS377",
+			"Offer",
+			"OfferBid",
+			"Gross Ret",
+			"Gross",
+			"PD102",
+			"AA04",
+			"AA04D",
+			"PD102",
+			"Rank",
+			"Rank Cat",
+			"Cat Ins",
+			"Cat Grp",
+			"UB217",
+			"PM00B",
+			"PD00B",
+			"\\n\\n",
+			"Cat Grp",
+			"\\n\\n",
+			"YTD",
+			"Gross Return",
+			"YTD",
+			"i=\"PD002",
+			"YTD",
+			"i=HP010",
+			"\\nYTD \\n(Daily)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			" ",
+			"",
+			" || ",
+			"||",
+			"\\n172",
+			"\"",
+			"\\n172",
+			"\\n",
+			"'",
+			" ",
+			"Proj\\PresentationstudioDev",
+			", Result= true)]",
+			"(",
+			"[TestCase(",
+			"\\n",
+			"",
+			", Result= true)]",
+			"[TestCase(",
+			"\\n",
+			"\\\\\"",
+			" ",
+			"",
+			", Result= true)]",
+			"[TestCase(",
+			"\\n",
+			"\\nFindImage exception",
+			"",
+			"\\\\\"",
+			"",
+			"\\\\\"",
+			"",
+			", Result = true)]",
+			"[TestCase(",
+			"\\n",
+			", Result = true)]",
+			"[TestCase(",
+			"\\n",
+			"",
+			"\\\\\"",
+			"",
+			"\\\\\"",
+			"",
+			"\\\\\"",
+			"",
+			"\\\"",
+			", Result = true)]",
+			"[TestCase(",
+			"\\n",
+			", Result = true)]",
+			"[TestCase(",
+			"\\n",
+			", Result = true)]",
+			"[TestCase(",
+			"\\n",
+			"\\\"",
+			"><",
+			" ",
+			"",
+			"]\\n",
+			" Result= )\\n",
+			"\\n",
+			"[TestCase(",
+			"\\\"",
+			"\\n",
+			"\\n\\n",
+			");",
+			",",
+			"Assert.AreEqual(",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			" ",
+			":000${1})",
+			":00${1})",
+			":0${1})",
+			":00${1})",
+			":000${1})",
+			":000$&)",
+			":000$&",
+			":000\\d\\)",
+			":0010)",
+			":0001)",
+			"\\n\\n",
+			"Account",
+			"Acount",
+			"\\n\\n",
+			"\" & CHAR(COLUMN()+64) & ",
+			"\\n",
+			"..\\..\\..\\..\\develop\\awd\\lib\\",
+			"\\nquant",
+			"\" \\n",
+			"\\n",
+			"\\n<c i=\\\\\"\"PasPreparedFor",
+			"\\ns-time",
+			"s-user=\\n",
+			"s-user=\\\\\"\"tims@sallc.com\\\\\"\"",
+			"\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/components/filter-listing.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								168
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "EmberAPP.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"filter-listing.js",
+				"app\\components\\filter-listing.js"
+			],
+			[
+				"myroute",
+				"app\\routes\\my-route.js"
+			],
+			[
+				"image",
+				"bower_components\\Faker\\lib\\image.js"
+			],
+			[
+				".css",
+				"dist\\assets\\vendor.css"
+			],
+			[
+				"config.js",
+				"app\\mirage\\config.js"
+			],
+			[
+				".htm",
+				"app\\index.html"
+			],
+			[
+				"application",
+				"app\\templates\\application.hbs"
+			],
+			[
+				"passpec",
+				"Bin\\WWWRoot\\Config\\PASSpecialDataIdMapping.xml"
+			],
+			[
+				"dataidmap",
+				"Bin\\WWWRoot\\Config\\DataIdMapping.xml"
+			],
+			[
+				"mstarawdxml",
+				"Bin\\WWWRoot\\Config\\MStarAWDConfig.xml"
+			],
+			[
+				"mstara",
+				"ReportingAppStartup\\MStarAwdConfig.cs"
+			],
+			[
+				"messages/",
+				"Bin\\WWWRoot\\PresentationStudio\\Messages\\PresentationStudio.xml"
+			],
+			[
+				"workbookfilelist",
+				"ReportingFramework\\Application\\WelcomeScreen\\WorkbookFileList.xaml.cs"
+			],
+			[
+				"workbooklist",
+				"ReportingFramework\\Application\\WelcomeScreen\\WorkbookFileList.xaml"
+			],
+			[
+				"special",
+				"Bin\\WWWRoot\\Config\\SpecialDataIdMapping.xml"
+			],
+			[
+				"dataidm",
+				"Bin\\WWWRoot\\Config\\DataIdMapping.xml"
+			],
+			[
+				"dataidma",
+				"Bin\\WWWRoot\\Config\\DataIdMapping.xml"
+			],
+			[
+				"dynamictext",
+				"Component\\Text\\Text.WPF\\DynamicText.xaml"
+			],
+			[
+				"dataidmapp",
+				"Bin\\WWWRoot\\Config\\DataIdMapping.xml"
+			],
+			[
+				"dropdown.g",
+				"ReportingFramework\\Control\\Ribbon\\ToolbarItem\\CODD\\DropDown.Generic.xaml"
+			],
+			[
+				"messages/pre",
+				"Bin\\WWWRoot\\PresentationStudio\\Messages\\PresentationStudio.xml"
+			],
+			[
+				"messagepresxml",
+				"Bin\\WWWRoot\\PresentationStudio\\Messages\\PresentationStudio.xml"
+			],
+			[
+				"ps.work",
+				"ReportingFramework\\Application\\WelcomeScreen\\PS.WorkbookFileList.xaml"
+			],
+			[
+				"pres",
+				"Bin\\WWWRoot\\PresentationStudio\\Messages\\PresentationStudio.xml"
+			],
+			[
+				"presxml",
+				"Bin\\WWWRoot\\PresentationStudio\\Messages\\PresentationStudio.xml"
+			],
+			[
+				"textad",
+				"Component\\ChartAdapter\\Text\\TextAdapter.cs"
+			],
+			[
+				"textviewmod",
+				"Component\\ChartAdapter\\Text\\TextViewModel.cs"
+			],
+			[
+				"tablepos",
+				"Component\\DataTable\\DataTable.DataProvider\\CellData\\TablePos.cs"
+			],
+			[
+				"celldata",
+				"Component\\DataTable\\DataTable.DataProvider\\CellData\\CellData.cs"
+			],
+			[
+				"messagepresentationstudioxml",
+				"Bin\\WWWRoot\\PresentationStudio\\Messages\\PresentationStudio.xml"
+			],
+			[
+				"awsoepresentationstudio.xml",
+				"Bin\\WWWRoot\\PresentationStudio\\AWSOE\\Messages\\PresentationStudio.xml"
+			],
+			[
+				"presentationstudio.xml",
+				"Bin\\WWWRoot\\PresentationStudio\\AWSOE\\Config\\PresentationStudio.xml"
+			],
+			[
+				"",
+				"PresentationStudio.sln"
+			],
+			[
+				"serstub",
+				"Misc\\Test\\UnitTest\\PresentationStudio\\UnitTestUtils\\ServiceProviderStub.cs"
+			],
+			[
+				"paspiedatasett",
+				"Component\\PASChart\\PASPieData\\PASPieDataSetting.cs"
+			],
+			[
+				"paspiechartcon",
+				"Component\\ChartAdapter\\PASPieChart\\PASPieChartContextualDialogVM.cs"
+			],
+			[
+				"paschartset",
+				"Component\\ChartAdapter\\PASPieChart\\PASChartSettingHelper.cs"
+			],
+			[
+				"pastablesetingh",
+				"Component\\ChartAdapter\\DataTable\\PAS\\PASTableSettingHelper.cs"
+			],
+			[
+				"pastablesetting",
+				"Component\\ChartAdapter\\DataTable\\PAS\\PASTableSettingHelper.cs"
+			],
+			[
+				"pastab",
+				"Component\\ChartAdapter\\DataTable\\PAS\\PASTableAdapter.cs"
+			],
+			[
+				"workflow/standardworkbookwh/standardworkbookwh.xml.cs",
+				"ReportingApp\\Workflow\\StandardWorkbookWH\\StandardWorkbookWH.Xml.cs"
+			],
+			[
+				"text/text.wpf/dynamictext.xaml.cs",
+				"Component\\Text\\Text.WPF\\DynamicText.xaml.cs"
+			],
+			[
+				"pachart/timeseriesgraph/presentation/presentationmanager.cs",
+				"Component\\PAChart\\TimeSeriesGraph\\Presentation\\PresentationManager.cs"
+			],
+			[
+				"pachart/tpabarchartdata/tpabarchartdata.cs",
+				"Component\\PAChart\\TPABarChartData\\TPABarChartData.cs"
+			],
+			[
+				"pachart/pafactorexposuredata/pafactorexposuredata.cs",
+				"Component\\PAChart\\PAFactorExposureData\\PAFactorExposureData.cs"
+			],
+			[
+				"mstarchartcommon/databridge/util/cacheddatacallback.cs",
+				"Core\\MstarChartCommon\\DataBridge\\Util\\CachedDataCallback.cs"
+			],
+			[
+				"mstarchartcommon/cache/service/cacheatom.cs",
+				"Core\\MstarChartCommon\\Cache\\Service\\CacheAtom.cs"
+			],
+			[
+				"mstarchartcommon/cache/misc.cs",
+				"Core\\MstarChartCommon\\Cache\\Misc.cs"
+			],
+			[
+				"morningstar/totalreturn/totalreturngraph/presentation/presentationmanager.cs",
+				"Component\\Morningstar\\TotalReturn\\TotalReturnGraph\\Presentation\\PresentationManager.cs"
+			],
+			[
+				"morningstar/timeseries/timeseriesgraph/presentation/presentationmanager.cs",
+				"Component\\Morningstar\\TimeSeries\\TimeSeriesGraph\\Presentation\\PresentationManager.cs"
+			],
+			[
+				"morningstar/mulitplereturnsrolling/graph/presentation/presentationmanager.cs",
+				"Component\\Morningstar\\MulitpleReturnsRolling\\Graph\\Presentation\\PresentationManager.cs"
+			],
+			[
+				"morningstar/growth/growthgraph/presentation/drawdowncoordinate.cs",
+				"Component\\Morningstar\\Growth\\GrowthGraph\\Presentation\\DrawdownCoordinate.cs"
+			],
+			[
+				"morningstar/floatingbar/returncategorygraph/presentation/presentationmanager.cs",
+				"Component\\Morningstar\\FloatingBar\\ReturnCategoryGraph\\Presentation\\PresentationManager.cs"
+			],
+			[
+				"legend/presentation/presentationmanager.cs",
+				"Component\\Library\\ChartComponentLibrary\\Legend\\Presentation\\PresentationManager.cs"
+			],
+			[
+				"morningstar/rbst/rbstyletraildata/returnstyletraildata.cs",
+				"Component\\Morningstar\\RBST\\RBStyleTrailData\\ReturnStyleTrailData.cs"
+			],
+			[
+				"morningstargrowth/growthgraph/presentation/coordinatemarkarea.cs",
+				"Component\\Morningstar\\Growth\\GrowthGraph\\Presentation\\CoordinateMarkArea.cs"
+			],
+			[
+				"passpecial",
+				"Bin\\WWWRoot\\Config\\PASSpecialDataIdMapping.xml"
+			],
+			[
+				"datachoice.xml",
+				"Bin\\WWWRoot\\Config\\Data_Choices.xml"
+			],
+			[
+				"datachoice",
+				"ReportingServer\\Libraries\\AppShare\\Data\\DataChoices.cs"
+			],
+			[
+				"broad",
+				"Bin\\WWWRoot\\Config\\BroadAssetClass.xml"
+			],
+			[
+				"pascont",
+				"Component\\ChartAdapter\\DataTable\\PAS\\PASContextualDialogViewModel.cs"
+			],
+			[
+				"pasreportparsebase",
+				"Core\\DataBridge\\Backend\\PASReportDAC\\PASReportParseBase.cs"
+			],
+			[
+				"pasrptxml",
+				"Bin\\WWWRoot\\Config\\PAS_RPT_DataIdMapping.xml"
+			],
+			[
+				"passpeci",
+				"Bin\\WWWRoot\\Config\\PASSpecialDataIdMapping.xml"
+			],
+			[
+				"passpe",
+				"Core\\MstarChartCommon\\Data\\PASDadaIdMapping\\PASSpecialDatapoints.cs"
+			],
+			[
+				"pasequitysectorallocationtabledataprovider",
+				"Component\\DataTable\\DataTable.DataProvider\\DataProvider\\PAS\\PASEquitySectorAllocationTableDataProvider.cs"
+			],
+			[
+				"pasmulti",
+				"Component\\DataTable\\DataTable.DataProvider\\DataProvider\\PAS\\PASMultipleTableDataProvider.cs"
+			],
+			[
+				"pas_ads_dataidmapping",
+				"Bin\\WWWRoot\\Config\\PAS_ADS_DataIdMapping.xml"
+			],
+			[
+				"passp",
+				"Bin\\WWWRoot\\Config\\PASSpecialDataIdMapping.xml"
+			],
+			[
+				"pastabledatapro",
+				"Component\\DataTable\\DataTable.DataProvider\\DataProvider\\PAS\\PASTableDataProvider.cs"
+			],
+			[
+				"pasmultiple",
+				"Component\\DataTable\\DataTable.DataProvider\\DataProvider\\PAS\\PASMultipleTableDataProvider.cs"
+			],
+			[
+				"diagnostics",
+				"Misc\\Diagnose\\Diagnostics\\Diagnostics.csproj"
+			],
+			[
+				"pastabledataprovide.cs",
+				"Component\\DataTable\\DataTable.DataProvider\\DataProvider\\PAS\\PASTableDataProvider.cs"
+			],
+			[
+				"transactype",
+				"Practice\\xml\\transactionTypes.xml"
+			],
+			[
+				"custfundxml",
+				"Practice\\xml\\labels_custfund_message.xml"
+			],
+			[
+				"errms",
+				"Config\\alertErrMsg.xml"
+			],
+			[
+				"copyaccountxsl",
+				"Practice\\xsl\\dlg_practice_copyaccount.xsl"
+			],
+			[
+				"copyaccjs",
+				"Practice\\scripts\\CopyAccount.js"
+			],
+			[
+				"custf",
+				"Practice\\scripts\\custfund.js"
+			],
+			[
+				"transactiontype",
+				"Practice\\xml\\transactionTypes.xml"
+			],
+			[
+				"pasdata",
+				"Config\\PAS_RPT_DataIdMapping.xml"
+			],
+			[
+				"dataid",
+				"Config\\DataIdMapping.xml"
+			],
+			[
+				"mstarawdconfig",
+				"Config\\MStarAWDConfig.xml"
+			],
+			[
+				"loadreport",
+				"Reports\\LoadReport.asp"
+			],
+			[
+				"clientxsl",
+				"Practice\\xsl\\ClientProfile.xsl"
+			],
+			[
+				"labelmessage",
+				"Practice\\xml\\label_MessageWindow.xml"
+			],
+			[
+				"savepasset",
+				"Practice\\scripts\\SavePasSetting.js"
+			],
+			[
+				"dlg_practice_setting_report",
+				"Practice\\xsl\\dlg_practice_setting_report.xsl"
+			],
+			[
+				"addedit_sett",
+				"Practice\\practice_addedit_setting.asp"
+			],
+			[
+				"dataidpam",
+				"Config\\DataIdMapping.xml"
+			],
+			[
+				"nav_main.xml",
+				"Practice\\xml\\nav_practice_main.xml"
+			],
+			[
+				"portxml",
+				"XML\\PORT_Label.xml"
+			],
+			[
+				"datachoi",
+				"Config\\Data_Choices.xml"
+			],
+			[
+				"grid.c",
+				"_common\\styles\\grid.css"
+			],
+			[
+				"custfund_save",
+				"Practice\\practice_custfund_savecustfund.asp"
+			],
+			[
+				"combobox",
+				"_common\\xsl\\ComboBox.xsl"
+			],
+			[
+				"dataentry",
+				"_common\\xsl\\DataEntryTemplate.xsl"
+			],
+			[
+				"dlgcustfundxsl",
+				"Practice\\xsl\\dlg_custfund_savecustfund.xsl"
+			],
+			[
+				"custfund",
+				"Practice\\xml\\label_custfund_setup.xml"
+			],
+			[
+				"datatemp",
+				"_common\\xsl\\DataEntryTemplate.xsl"
+			],
+			[
+				"cust_fund",
+				"Practice\\xsl\\dlg_custfund_savecustfund.xsl"
+			],
+			[
+				"accs",
+				"Reports\\XSLFO\\XSL\\AcctStatement\\AcctStatement.xsl"
+			],
+			[
+				"account.asp",
+				"Practice\\Account.asp"
+			],
+			[
+				"cookie",
+				"include\\cookie.asp"
+			],
+			[
+				"mstarawd",
+				"Config\\MStarAWDConfig.xml"
+			],
+			[
+				"client_profile",
+				"Practice\\practice_client_profile.asp"
+			],
+			[
+				"client",
+				"Practice\\scripts\\ClientUtil.js"
+			],
+			[
+				"common1",
+				"Reports\\XSLFO\\XSL\\include\\common1.xsl"
+			],
+			[
+				"common_qt_acctsum",
+				"Reports\\XSLFO\\XSL\\include\\common_qt_acctsum.xsl"
+			],
+			[
+				"acctstateconstant",
+				"Reports\\XSLFO\\XSL\\AcctStatement\\AcctStateConstant.xml"
+			],
+			[
+				"acctstatement.xsl",
+				"Reports\\XSLFO\\XSL\\AcctStatement\\AcctStatement.xsl"
+			],
+			[
+				"savetrans",
+				"Practice\\scripts\\SaveTransaction.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 448.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

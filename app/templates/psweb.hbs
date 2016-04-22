@@ -1,0 +1,22 @@
+<div class="margin: 10px;">
+    <div class="col-md-2">
+      <div class="list-group">
+        <div class="list-group-item">
+          Pages
+        </div>
+        {{#each model as |pscomponent|}}
+            <div class="list-group-item">
+            	{{#link-to PSWeb.components pscomponent}}
+            		<div class="background-color: Gray;width: 15px; height:40px;">Preview Page</div>
+            	{{/link-to}}
+	            Page {{pscomponent.id}}
+	        </div>
+	    {{/each}}
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="list-group">
+        {{outlet}}
+      </div>
+    </div>
+</div>

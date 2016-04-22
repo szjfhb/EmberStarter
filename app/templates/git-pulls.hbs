@@ -1,0 +1,17 @@
+<div>
+	<div>
+		<div>
+			<div >
+				<ul>
+					{{#each model as |item|}}
+					<li>
+						{{#link-to 'posts.detail' item}}
+                            {{item.title}}
+                        {{/link-to}}
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

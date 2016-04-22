@@ -1,0 +1,20 @@
+<form class="form-inline" {{action login on="submit"}}>
+	<h2>Log In</h2>
+	{{input value=username type="text" placeholder="User Name"}}
+	{{input value=password type="password" placeholder="Password"}}
+	{{input class="btn" type="submit" value="Log In"}}
+</form>
+{{#if errorMessage}}
+<div class="alert alert-error">{{errorMessage}}</div>
+{{/if}}
+
+<div class="footer">By Odin Xiong</div>
+
+<blockquote class="quote speech-bubble">
+	<p class="::before ::after">
+	A framework for creating ambitious web applications.
+	</p>
+	<footer class="::after">
+		<a href="http://emberjs.com">Ember.js</a>
+	</footer>
+</blockquote>
