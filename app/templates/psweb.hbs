@@ -1,17 +1,17 @@
-<div class="margin: 10px;">
+    {{tab-bar }}
     <div class="col-md-2">
-      <div class="list-group">
+      <div class="list-group" style="overflow-y: auto;maxheight:800px">
         <div class="list-group-item">
-          Pages
+          Pages ({{model.pages.length}})
         </div>
-        {{#each model as |pscomponent|}}
-            <div class="list-group-item">
-            	{{#link-to PSWeb.components pscomponent}}
-            		<div class="background-color: Gray;width: 15px; height:40px;">Preview Page</div>
+        {{#each model.pages as |page|}}
+            <div class="list-group-item text-center">
+            	{{#link-to 'PSWeb.page' page.id}}
+            		<div class="container bg-info" style="width: 90%;height:150px;"></div>
+              Page {{page.id}}
             	{{/link-to}}
-	            Page {{pscomponent.id}}
-	        </div>
-	    {{/each}}
+	           </div>
+	       {{/each}}
       </div>
     </div>
     <div class="col-md-8">
@@ -19,4 +19,4 @@
         {{outlet}}
       </div>
     </div>
-</div>
+{{size}}

@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:git-pulls', 'Unit | Route | git pulls', {
+moduleFor('route:404', 'Unit | Route | 404', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

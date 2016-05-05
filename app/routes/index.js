@@ -25,8 +25,16 @@ import Ember from 'ember';
   //bedrooms: 3,
   //image: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg'
 //}];
-
+// var first = true;
 export default Ember.Route.extend({
+/*  beforeModel()
+  {
+    // if(first)
+    // {
+    //   // first = false;
+    //   //this.transitionTo('PSWeb');
+    // }
+  },*/
 	model(){
 		return this.store.findAll('rental');
 	}

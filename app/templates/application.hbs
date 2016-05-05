@@ -1,13 +1,27 @@
-<nav>
-{{#link-to "index" class="NavMenu"}}Home{{/link-to}}
-{{#link-to "PSWeb" class="NavMenu"}}PSWeb{{/link-to}}
-{{#link-to "login" class="NavMenu"}}Login{{/link-to}}
-{{#link-to "about" class="NavMenu"}}About{{/link-to}}
-{{#link-to "Devs" class="NavMenu"}}Devs Page{{/link-to}}
-{{#link-to "MyRoute" class="NavMenu"}}My FirstRoute{{/link-to}}
-{{#link-to "contact" class="NavMenu"}}Contact Us{{/link-to}}
-</nav>
-<br>
-{{Router}}
-{{outlet}}
-
+<div class="container" id="mainDiv">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container" style="padding: 0px;">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#NavMap" aria-expended="false">
+					<span class="sr-only">Navgation</span>
+				</button>
+				<a class="navbar-brand" >Ember Project</a>
+			</div>
+			<div class="collapse navbar-collapse" id="NavMap">
+				<ul class="nav navbar-nav">
+					<li class="active">{{#link-to "index"}}Home{{/link-to}}</li>
+					<li>{{#link-to "usertemplates"}}Templates{{/link-to}}</li>
+					<li>{{#link-to "PSWeb"}}PSWeb{{/link-to}}</li>
+					<li>{{#link-to "about"}}About{{/link-to}}</li>
+					{{!-- <li>{{#link-to "Devs"}}Devs Page{{/link-to}}</li>
+					<li>{{#link-to "MyRoute"}}My FirstRoute{{/link-to}}</li> --}}
+					<li>{{#link-to "contact" }}Contact Us{{/link-to}}</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>{{#link-to "login"}}Login{{/link-to}}</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	{{outlet}}
+</div>

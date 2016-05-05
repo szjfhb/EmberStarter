@@ -1,0 +1,29 @@
+<div class="container">
+	<nav style="margin-bottom:10px"  class="navbar">
+		Page Size:{{#each Sizes as |size|}}
+	  {{#link-to a}}{{size}}{{/link-to}}
+	{{/each}}
+		<button {{action "showSplitter"}} style="border:none; padding: 3px" id="dropdownmenu1">Splitter</button>
+		{{#if showSplitter}}
+			<div class="PopDiv TopIndex">
+				<table border="0px">
+					<tr>
+						<td>
+							<svg version="1.1" {{action 'SplitLeftRight'}} xmlns="http://www.w3.org/2000/svg" class="SVGBlock">
+								<rect x="10" y="10" width="120" height="100"  class="SVGStroke"/>
+								<line x1="10" y1="60" x2="130" y2="60"  class="SVGStroke"/>
+							</svg>
+						</td>
+						<td>
+							<svg version="1.1" {{action 'SplitTopBottom'}} xmlns="http://www.w3.org/2000/svg" class="SVGLastBlock">
+								<rect x="10" y="10" width="120" height="100"  class="SVGStroke"/>
+								<line x1="70" y1="10" x2="70" y2="110"  class="SVGStroke"/>
+							</svg>
+						</td>
+					</tr>
+				</table>
+			</div>
+		{{/if}}
+	</nav>
+	{{yield}}
+</div>

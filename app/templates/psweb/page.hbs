@@ -1,0 +1,13 @@
+<div style="border:1px solid rgb(0,0,0); height:800px; width: padding: 15px;">
+	Page {{!-- {{model.CurrentPage}} --}}/{{model.Totalpage}}{{model.pages}}
+	<div id="Page{{model.CurrentPage}}" style="border-top:1px solid rgb(0, 0, 0); border-bottom:1px solid rgb(0, 0, 0); height: 100%; width: 100%">
+	{{#each model.data as |component|}}
+	<pre><code>
+		Text: {{component.text}}
+		component Type: {{component.type}}
+		</code></pre>
+	<br>
+	{{/each}}
+	</div>
+</div>
+{{outlet}}
