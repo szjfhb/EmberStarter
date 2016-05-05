@@ -1,3 +1,5 @@
+# EmberStarter
+Test project for my Ember Learning...
 # My-app
 
 This README outlines the details of collaborating on this Ember application.
