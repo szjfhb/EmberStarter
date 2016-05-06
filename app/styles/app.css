@@ -48,11 +48,11 @@ a.active:hover
     color:#FFFF00;
 }*/
 
-div.alert
+/*div.alert
 {
-  /*border-color: lightgray;
-  /*margin: 12px 0px 12px 0px;*/
-  /*top right bottom left */
+  border-color: lightgray;
+  margin: 12px 0px 12px 0px;
+  top right bottom left 
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
@@ -62,29 +62,16 @@ div.alert
   padding-bottom: 3px;
   padding-left: 0.7rem;
   line-height: 1.2;
-}
+}*/
 
-div.alert-error
+/*div.alert-error
 {
   color: blue;
   background-color: gray;
   border-color: gold;
   font-weight: bold;
-}
+}*/
 
-div.footer
-{
-  /*vertical-align: bottom;*/
-  text-shadow: -1px -1px -1px rgb(0, 0, 0.5);
-  font-weight: bold;
-  font-size: 70px;
-  right: 10px;
-  bottom: 10px;
-  font-family: Arial;
-  font-style: italic;
-  border-radius: 15;
-  position: fixed;
-}
 
 .speech-bubble {
     position: relative;
@@ -133,7 +120,7 @@ div.footer
 }
 
 .PopDiv{
-  /*position: relative;*/
+  /*position: relative;
   position: absolute;
   /*top: 70px;*/
   left: 45px;

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ember Starter Kit</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v2.0.0.js"></script>
+  <script src="http://builds.emberjs.com/tags/v1.9.1/ember.js"></script>
+  <script src="1.js"></script>
+  <style type="text/css">
+/* Put your CSS here */
+html, body {
+  margin: 20px;
+}
+
+select {
+  width: 300px;
+}
+
+.yelp-review {
+  box-sizing: border-box;
+  background: salmon;
+  padding: 20px;
+  width: 300px;
+  min-height: 100px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.yelp-review.loading p, .yelp-review.error p {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.yelp-review.loaded {
+  outline: 2px dotted teal;
+}
+
+.yelp-review.error code {
+  display: block;
+  text-align: center;
+  margin-top: -30px;
+  padding-bottom: 40px;
+}
+
+.yelp-review.salmon {
+  background: salmon;
+}
+
+.yelp-review.cornsilk {
+  background: cornsilk;
+}
+
+.yelp-review.gold {
+  background: gold;
+}
+
+.yelp-review.maroon {
+  background: maroon;
+}
+
+
+  </style>
+</head>
+<body>
+  <script type="text/x-handlebars">
+    <h2>Welcome to Ember.js</h2>
+
+    {{outlet}}
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="index">
+    <p>
+      {{view "select"
+             prompt="Please select a business"
+             content=model
+             optionValuePath="content.id"
+             optionLabelPath="content.name"
+             value=businessId}}
+    </p>
+  
+    {{#if businessId}}
+      {{yelp-review businessId=businessId}}
+
+      {{related-yelp-reviews businessId=businessId}}
+    {{/if}}
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="components/yelp-review">
+    <h3>{{model.name}}</h3>
+
+    <p>This business has {{model.stars}} stars, {{recommendation}}</p>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="components/yelp-review/loading">
+    <p>Fetching review data from Yelp...</p>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="components/yelp-review/error">
+    <p>Failed to fetch review from Yelp</p>
+    
+    {{#if model.message}}
+      <code>{{model.message}}</code>
+    {{/if}}
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="components/related-yelp-reviews">
+    <h2>You may also like...</h2>
+
+    {{#each review in model}}
+      {{yelp-review model=review}}
+    {{/each}}
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="components/related-yelp-reviews/loading">
+    {{!-- TODO: you shouldn't have to do this just to get a blank template? --}}
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="components/related-yelp-reviews/error">
+    {{!-- TODO: you shouldn't have to do this just to get a blank template? --}}
+  </script>
+<form id="reg" method="get" action="ajax-test.php">
+<p>账号：<input type="text" name="user"></p>
+<p>密码：<input type="text" name="pass"></p>
+<p><input type="button" value="提交"/></p>
+</form>
+
+<script>
+   $(function(){
+  $('form').form('sub').click(function(){
+   
+    alert("提交了"); 
+    
+   });
+   
+});
+</script>
+
+</body>
+</html>

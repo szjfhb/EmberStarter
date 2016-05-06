@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"page",
+				"page_id"
+			],
+			[
+				"clear",
+				"clearfix	(bootstrap.css)"
+			],
+			[
 				"cont",
 				"container"
 			],
@@ -68,67 +76,19 @@
 	"buffers":
 	[
 		{
-			"file": "mirage/config.js",
+			"file": "app/PSWeb/pod/model.js",
 			"settings":
 			{
-				"buffer_size": 4035,
+				"buffer_size": 70,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "mirage/factories/template.js",
+			"file": "EmberAPP.sublime-project",
 			"settings":
 			{
-				"buffer_size": 1038,
+				"buffer_size": 160,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "mirage/scenarios/default.js",
-			"settings":
-			{
-				"buffer_size": 256,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 1174,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/template.js",
-			"settings":
-			{
-				"buffer_size": 143,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/page.js",
-			"settings":
-			{
-				"buffer_size": 94,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/application.hbs",
-			"settings":
-			{
-				"buffer_size": 1043,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/styles/app.css",
-			"settings":
-			{
-				"buffer_size": 2669,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -139,10 +99,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 127.0,
-		"last_filter": "install",
+		"height": 196.0,
+		"last_filter": "hanle",
 		"selected_items":
 		[
+			[
+				"hanle",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -321,55 +289,67 @@
 	"expanded_folders":
 	[
 		"/D/Proj/MyAPP",
-		"/D/Proj/MyAPP/app/models",
-		"/D/Proj/MyAPP/app/routes",
-		"/D/Proj/MyAPP/app/styles",
-		"/D/Proj/MyAPP/mirage",
-		"/D/Proj/MyAPP/mirage/factories",
-		"/D/Proj/MyAPP/mirage/models",
-		"/D/Proj/MyAPP/mirage/scenarios"
+		"/D/Proj/MyAPP/mirage"
 	],
 	"file_history":
 	[
+		"/D/Proj/MyAPP/app/routes/psweb.js",
+		"/D/Proj/MyAPP/bower_components/Faker/examples/browser/css/bootstrap.css",
+		"/D/Proj/MyAPP/dist/1.js",
+		"/D/Proj/MyAPP/app/templates/psweb.hbs",
+		"/D/Proj/MyAPP/app/templates/psweb/page.hbs",
+		"/D/Proj/MyAPP/app/routes/login.js",
+		"/D/Proj/MyAPP/config/environment.js",
+		"/D/Proj/MyAPP/app/routes/psweb/page.js",
+		"/D/Proj/MyAPP/public/1.html",
+		"/D/Proj/MyAPP/app/controllers/login.js",
+		"/D/Proj/MyAPP/dist/assets/my-app.js",
+		"/D/Proj/MyAPP/EmberAPP.sublime-project",
+		"/D/Proj/MyAPP/bower_components/ember/ember.js",
+		"/D/Proj/MyAPP/public/1.js",
+		"/E/oxiong/Desktop/1.html",
+		"/E/oxiong/Desktop/1.js",
+		"/D/Proj/MyAPP/app/router.js",
+		"/D/Proj/MyAPP/app/models/page.js",
+		"/D/Proj/MyAPP/mirage/config.js",
+		"/D/Proj/MyAPP/app/routes/posts.js",
+		"/D/Proj/MyAPP/app/templates/posts.hbs",
+		"/D/Proj/MyAPP/tests/unit/routes/psweb/page-test.js",
+		"/D/Proj/MyAPP/tests/unit/routes/git-pulls-test.js",
+		"/D/Proj/MyAPP/mirage/factories/template.js",
+		"/D/Proj/MyAPP/app/styles/app.css",
+		"/D/Proj/MyAPP/app/templates/contact.hbs",
+		"/D/Proj/MyAPP/mirage/scenarios/default.js",
+		"/D/Proj/MyAPP/package.json",
+		"/D/Proj/MyAPP/app/models/template.js",
+		"/D/Proj/MyAPP/app/templates/components/tab-bar.hbs",
+		"/D/Proj/MyAPP/app/templates/application.hbs",
 		"/D/Proj/MyAPP/mirage/factories/datafeed.js",
 		"/D/Proj/MyAPP/bower_components/Faker/build/build/faker.js",
 		"/D/Proj/MyAPP/app/mirage/scenarios/default.js",
 		"/D/Proj/MyAPP/app/mirage/factories/datafeed.js",
 		"/D/Proj/MyAPP/app/mirage/config.js",
 		"/D/Proj/MyAPP/bower_components/lodash/lodash.js",
-		"/D/Proj/MyAPP/app/routes/psweb/page.js",
 		"/D/Proj/MyAPP/dist/assets/vendor.css",
-		"/D/Proj/MyAPP/app/models/page.js",
 		"/D/Proj/MyAPP/bower.json",
 		"/D/Proj/MyAPP/my.css",
-		"/D/Proj/MyAPP/app/styles/app.css",
-		"/D/Proj/MyAPP/app/templates/application.hbs",
 		"/D/Proj/MyAPP/ember-cli-build.js",
-		"/D/Proj/MyAPP/package.json",
 		"/D/Proj/MyAPP/app/app.js",
-		"/D/Proj/MyAPP/EmberAPP.sublime-project",
-		"/D/Proj/MyAPP/bower_components/Faker/examples/browser/css/bootstrap.css",
 		"/D/Proj/MyAPP/app/styles/my.cs",
-		"/E/oxiong/Desktop/1.html",
-		"/D/Proj/MyAPP/app/router.js",
 		"/D/Proj/MyAPP/app/templates/usertemplates.hbs",
 		"/D/Proj/MyAPP/app/models/datafeed.js",
 		"/D/Proj/MyAPP/app/routes/usertemplates.js",
-		"/D/Proj/MyAPP/app/models/template.js",
 		"/D/Proj/MyAPP/app/routes/psweb/index.js",
-		"/D/Proj/MyAPP/app/routes/psweb.js",
 		"/D/Proj/MyAPP/app/routes/index.js",
 		"/D/Proj/MyAPP/app/styles/app.scss",
 		"/D/Proj/MyAPP/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js",
 		"/C/Users/oxiong/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/oxiong/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
 		"/D/Proj/MyAPP/app/templates/index.hbs",
-		"/D/Proj/MyAPP/app/templates/psweb.hbs",
 		"/D/Proj/MyAPP/app/index.html",
 		"/D/Proj/MyAPP/app/templates/components/rental-listing.hbs",
 		"/C/Users/oxiong/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/oxiong/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/D/Proj/MyAPP/config/environment.js",
 		"/C/Users/oxiong/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/D/Proj/MyAPP/app/components/people-list.js",
 		"/C/Users/oxiong/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
@@ -440,25 +420,7 @@
 		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/components/people-list.js",
 		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/components/rental-listing.js",
 		"/C/Users/oxiong/AppData/Local/Temp/7zO95E0.tmp/PSLOG_20160328_092657.717.log",
-		"/C/Users/oxiong/AppData/Local/Temp/7zOB544.tmp/PSLOG_20160328_095713.849.log",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/routes/about.js",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/my-app-242177e5ad124244daf4a3e86f470c9d.js",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/my-app-d41d8cd98f00b204e9800998ecf8427e.css",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/dist/assets/vendor-a69a0f0fcf9fff8b4bbbe35c059e0f6f.js",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/resolver.js",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/app/app.js",
-		"/C/Program Files/Sublime3/Data/Packages/User/EmberScript.sublime-settings",
-		"/C/Program Files/Sublime3/Data/Packages/Default/Preferences.sublime-settings",
-		"/C/Program Files/Sublime3/Data/Packages/User/Preferences.sublime-settings",
-		"/C/Program Files/Sublime3/Data/Packages/User/Distraction Free.sublime-settings",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.git/config",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.git/COMMIT_EDITMSG",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyAPP/.git/index",
-		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/myEmber.js",
-		"/F/DownLoads/Study/ember-JS/ember-charts-1.0.0/myself.htm",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyApp/README.md",
-		"/F/DownLoads/Study/ember-JS/emberchart/MyApp/app/app.js"
+		"/C/Users/oxiong/AppData/Local/Temp/7zOB544.tmp/PSLOG_20160328_095713.849.log"
 	],
 	"find":
 	{
@@ -478,6 +440,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"model",
+			"modelfor",
+			"sub",
+			"route",
+			"_layout",
+			"background-color",
+			"quote",
+			"blockquote",
+			"speech-bubble",
+			"active",
+			"”",
+			"\"”\"",
+			"\"\"\"",
+			"\"",
+			"quote",
+			"padding-left: 0",
+			"padding:0",
+			"container",
+			"nav",
+			"navbar",
+			"border-radius",
+			"radius",
+			"radio",
 			"random ",
 			"random",
 			"list ",
@@ -582,30 +567,7 @@
 			"table",
 			"exception",
 			"PD001",
-			"pd001",
-			"pd102",
-			"\\n\\n",
-			"\\N\\N",
-			"-",
-			"IR003",
-			"Return Date",
-			"DT008",
-			"Return Date",
-			"DT015",
-			"IR003",
-			"DT001",
-			"Net",
-			"NetReturn",
-			"DT01B",
-			"PD002",
-			"DT01B",
-			"Return Date",
-			"DT015",
-			"Inflation Adjusted",
-			"IR003",
-			"IR100",
-			"HS377",
-			"Offer"
+			"pd001"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -724,82 +686,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mirage/config.js",
+					"file": "app/PSWeb/pod/model.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4035,
+						"buffer_size": 70,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "mirage/factories/template.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1038,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								178,
-								178
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "mirage/scenarios/default.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								255,
-								255
+								70,
+								70
 							]
 						],
 						"settings":
@@ -814,148 +718,31 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "package.json",
+					"buffer": 1,
+					"file": "EmberAPP.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1174,
+						"buffer_size": 160,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								155,
-								155
+								119,
+								120
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/models/template.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 143,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								138,
-								138
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/models/page.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 94,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								77
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/templates/application.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1043,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1024,
-								1024
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/styles/app.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2669,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								162,
-								162
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1010,6 +797,82 @@
 		"selected_items":
 		[
 			[
+				"psweb/po",
+				"app\\PSWeb\\pod\\model.js"
+			],
+			[
+				"envi",
+				"config\\environment.js"
+			],
+			[
+				"page.js",
+				"app\\routes\\psweb\\page.js"
+			],
+			[
+				"1.",
+				"public\\1.html"
+			],
+			[
+				"1.js",
+				"public\\1.js"
+			],
+			[
+				"routelogin",
+				"app\\routes\\login.js"
+			],
+			[
+				"login.js",
+				"app\\controllers\\login.js"
+			],
+			[
+				"page.hbs",
+				"app\\templates\\psweb\\page.hbs"
+			],
+			[
+				"bootstr",
+				"bower_components\\Faker\\examples\\browser\\css\\bootstrap.css"
+			],
+			[
+				"psweb.hbs",
+				"app\\templates\\psweb.hbs"
+			],
+			[
+				"pages",
+				"app\\models\\page.js"
+			],
+			[
+				"psweb",
+				"app\\routes\\psweb.js"
+			],
+			[
+				"cofnig",
+				"mirage\\config.js"
+			],
+			[
+				"posts",
+				"app\\templates\\posts.hbs"
+			],
+			[
+				"app.css",
+				"app\\styles\\app.css"
+			],
+			[
+				"contact",
+				"app\\templates\\contact.hbs"
+			],
+			[
+				"tab-bar",
+				"app\\templates\\components\\tab-bar.hbs"
+			],
+			[
+				"bootstrap",
+				"bower_components\\Faker\\examples\\browser\\css\\bootstrap.css"
+			],
+			[
+				"application",
+				"app\\templates\\application.hbs"
+			],
+			[
 				"faker",
 				"bower_components\\Faker\\build\\build\\faker.js"
 			],
@@ -1018,16 +881,8 @@
 				"bower_components\\Faker\\examples\\browser\\css\\bootstrap.css"
 			],
 			[
-				"app.css",
-				"app\\styles\\app.scss"
-			],
-			[
 				"apphbs",
 				"app\\templates\\application.hbs"
-			],
-			[
-				"page.js",
-				"app\\routes\\psweb\\page.js"
 			],
 			[
 				"jshint",
@@ -1042,16 +897,8 @@
 				"bower_components\\Faker\\examples\\browser\\css\\bootstrap.css"
 			],
 			[
-				"bootstr",
-				"bower_components\\bootstrap-sass\\assets\\javascripts\\bootstrap.js"
-			],
-			[
 				"css",
 				"app\\styles\\app.scss"
-			],
-			[
-				"application",
-				"app\\templates\\application.hbs"
 			],
 			[
 				"applicat",
@@ -1460,54 +1307,6 @@
 			[
 				"datatemp",
 				"_common\\xsl\\DataEntryTemplate.xsl"
-			],
-			[
-				"cust_fund",
-				"Practice\\xsl\\dlg_custfund_savecustfund.xsl"
-			],
-			[
-				"accs",
-				"Reports\\XSLFO\\XSL\\AcctStatement\\AcctStatement.xsl"
-			],
-			[
-				"account.asp",
-				"Practice\\Account.asp"
-			],
-			[
-				"cookie",
-				"include\\cookie.asp"
-			],
-			[
-				"mstarawd",
-				"Config\\MStarAWDConfig.xml"
-			],
-			[
-				"client_profile",
-				"Practice\\practice_client_profile.asp"
-			],
-			[
-				"client",
-				"Practice\\scripts\\ClientUtil.js"
-			],
-			[
-				"common1",
-				"Reports\\XSLFO\\XSL\\include\\common1.xsl"
-			],
-			[
-				"common_qt_acctsum",
-				"Reports\\XSLFO\\XSL\\include\\common_qt_acctsum.xsl"
-			],
-			[
-				"acctstateconstant",
-				"Reports\\XSLFO\\XSL\\AcctStatement\\AcctStateConstant.xml"
-			],
-			[
-				"acctstatement.xsl",
-				"Reports\\XSLFO\\XSL\\AcctStatement\\AcctStatement.xsl"
-			],
-			[
-				"savetrans",
-				"Practice\\scripts\\SaveTransaction.js"
 			]
 		],
 		"width": 0.0
@@ -1538,7 +1337,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 216.0,
+	"side_bar_width": 230.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

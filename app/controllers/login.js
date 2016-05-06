@@ -11,7 +11,7 @@ export default Ember.Controller.extend({
 	login: function(){
 		this.set('errorMessage', "");
 		var data = this.getProperties('username', 'password');
-		//alert("Username: " + data.username + " Password: " + data.password);
+		console.log("Username: " + data.username + " Password: " + data.password);
 		if(true)//data.username == "test" && data.password=="mstar")
 		{
 			//Ember.url.redirect('/PSWeb/');

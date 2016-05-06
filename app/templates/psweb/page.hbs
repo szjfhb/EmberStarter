@@ -1,13 +1,32 @@
-<div style="border:1px solid rgb(0,0,0); height:800px; width: padding: 15px;">
-	Page {{!-- {{model.CurrentPage}} --}}/{{model.Totalpage}}{{model.pages}}
-	<div id="Page{{model.CurrentPage}}" style="border-top:1px solid rgb(0, 0, 0); border-bottom:1px solid rgb(0, 0, 0); height: 100%; width: 100%">
-	{{#each model.data as |component|}}
-	<pre><code>
-		Text: {{component.text}}
-		component Type: {{component.type}}
-		</code></pre>
-	<br>
-	{{/each}}
-	</div>
+<div style="border:1px solid rgb(0,0,0); height:800px;padding:3px; padding-left:15px; padding-right:15px;">
+	<table width="100%" height="100%" broder="2">
+		<tr style="background-color:red;height:30px;">
+			<td>
+				<div class="header row" style="height:30px;position:relative">
+					Herder: Page {{model.CurrentPage}}/{{model.Totalpage}}{{model.pages}}
+				</div>
+			</td>
+		</tr>
+		<tr style="background-color:gray">
+			<td style="background-color:green;">
+				<div id="contentDiv" 
+style="border-top:1px solid rgb(0, 0, 0);margin-top:0px;
+border-bottom:1px solid rgb(0, 0, 0);
+background-color:gold;padding:20px">
+					{{#each model as |component|}}
+						{{component-base data=component}}
+					{{/each}}
+					{{component-base data=model}}
+				</div>
+			</td>
+		</tr>
+		<tr style="background-color:red;height:30px;">
+			<td>
+				<div class="footer" style="position:relative; height:30px;">
+					Footer:Page{{model.CurrentPage}}
+				</div>
+			</td>
+		</tr>
+	</table>
 </div>
 {{outlet}}

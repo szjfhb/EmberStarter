@@ -3,7 +3,7 @@
 	[
 		{
 			"path": ".",
-			"folder_exclude_patterns": ["tmp", "dist", "node_modules" , "tests"],
+			"folder_exclude_patterns": ["tmp", "node_modules" , "tests", "dist"],
 			"file_exclude_patterns": [".gitkeep"]
 		}
 	]
