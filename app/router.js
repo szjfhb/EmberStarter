@@ -19,7 +19,6 @@ Router.map(function() {
   });
   this.route('404', {path: '/*wildcard'});
   this.route('usertemplates', {path: 'templates'});
-  this.route('newpod');
 });
 
 export default Router;

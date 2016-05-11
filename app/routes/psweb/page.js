@@ -9,8 +9,9 @@ export default Ember.Route.extend({
 		this.set('CurrentPage', param.page_id);
 		//return this.store.queryRecord('template', {id:2, page: this.CurrentPage});
 		var obj = this.store.findRecord('template', 2);
+		console.log("Page: " + param.page_id);
 		console.log(obj);
-		return {width:800, height: 800, text: 'What is it?', type:'text'};
+		return {width:680, height: 740, text: 'What is it?', type:'text', showTitle:true, title:'Demo title'};
 		},
 	 afterModel: function(model){
 	 		console.log("current page:" + this.get('CurrentPage'));
