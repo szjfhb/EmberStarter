@@ -2,76 +2,17 @@ body
 {
  font-size: 10pt;
  color: #202020;
- //background-color: black;
+ /*background-color: black;*/
  font-family: Verdana;
  padding: 10px;
  padding-top: 50px;
-  width: 1090px;
+ width: 1090px;
+ min-width:1090px;
  height: 900px; 
  scroll-behavior: auto;
  text-align: left;
+ margin: 0 auto;
 }
-
-a.NavMenu
-{
-  background-color: #E0EAF1;
-  border-bottom: 1px solid #3E6D8E;
-  border-right: 1px solid #7F9FB6;
-  color: #3E6D8E;
-  font-size: 9pt;
-  line-height: 2.4;
-  margin: 2px 2px 2px 0;
-
-  padding: 2px 20px;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-a.NavMenu:hover
-{
-	  background-color: #3E6D8E;
-  color: #fff;
-}
-p
-{
-  font-szie: 10pt;
-}
-
-/*a.active
-{
-    background-color: #6F6F6F;
-    color:#FFFF00;
-}
-a.active:hover
-{
-    background-color: #6F6F6F;
-    color:#FFFF00;
-}*/
-
-/*div.alert
-{
-  border-color: lightgray;
-  margin: 12px 0px 12px 0px;
-  top right bottom left 
-  border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 0.7rem;
-  line-height: 1.2;
-}*/
-
-/*div.alert-error
-{
-  color: blue;
-  background-color: gray;
-  border-color: gold;
-  font-weight: bold;
-}*/
-
 
 .speech-bubble {
     position: relative;
@@ -120,20 +61,25 @@ a.active:hover
 }
 
 .PopDiv{
-  /*position: relative;
+  /*position: relative;*/
   position: absolute;
   /*top: 70px;*/
-  left: 45px;
+  left: 158px;
+  margin-top:2px;
   border: 1px solid black;
-  background-color: #cecece;
+  background-color: white;
 }
 
 .TopIndex{
   z-index: 1110;
 }
+.splitBar:hover 
+{
+  background-color: #909090;
+}
 
 .SVGStroke{
-  fill: #fffff0;
+  fill: transparent;
   stroke: black;
   stroke-width: 2;
 }

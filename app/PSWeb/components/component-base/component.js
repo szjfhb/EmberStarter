@@ -21,7 +21,7 @@ export default Ember.Component.extend({
 		var value = 20;
 		console.log("default: "+ value );
 		console.log(this.get('settings').titleHeight);
-		if(!this.showTitle) {
+		if(!this.get('showTitle')) {
 			return 0;
 		}
 		else{
@@ -30,14 +30,14 @@ export default Ember.Component.extend({
 		}),
 	textHeight: Ember.computed('height', function(){
 		var value = this.get('height'); 
-		if(this.showTitle){
+		if(this.get('showTitle')){
 			value = value - this.get('titleHeight');
 		}
 		return value;
 	}),
 	textHeightCSS: Ember.computed('height', function(){
 				var textheight = this.get('height'); 
-				if(this.showTitle){
+				if(this.get('showTitle')){
 					textheight = textheight - this.get('titleHeight');
 				}
 				return Ember.String.htmlSafe("height:" + textheight);

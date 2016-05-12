@@ -16,11 +16,12 @@ export default Ember.Component.extend({
 	    		    },
 	    SplitLeftRight()
 	    {
-	    	alert('split current "Cell" to left/right parts.');
+	    	//alert('split current "Cell" to left/right parts.');
+	    	sendAction(SplitLeftRight);
 	    },
 	    SplitTopBottom()
 	    {
-	    	alert('SplitTopBottom');
+	    	alert('split current "Cell" to top/bottom parts.');
 	    }
 	  }
 });

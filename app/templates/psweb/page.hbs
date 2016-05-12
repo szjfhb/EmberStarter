@@ -1,18 +1,23 @@
-<div style="border:1px solid rgb(0,0,0); height:800px;padding:3px; padding-left:15px; padding-right:15px;">
+<div style="border:1px solid rgb(0,0,0); height:800px;padding:3px;
+ padding-left:15px; padding-right:15px;width:700px;position:relative;
+ ">
 	<div class="header" style="height:30px;position:relative">
 		Herder: Page {{model.CurrentPage}}/{{model.Totalpage}}{{model.pages}}
 	</div>
 	<div id="contentDiv" 
 	style="border-top:1px solid rgb(0, 0, 0);margin-top:0px;
 	border-bottom:1px solid rgb(0, 0, 0);background-color:gold;">
-		{{#each model as |component|}}
-			12{{component-base data=component}}34
+		{{#each model.data as |component|}}
+			{{component-base data=component}}
 		{{/each}}
-		{{component-base data=model}}
+		{{!-- {{component-base data=model}} --}}
 	</div>
 
 	<div class="footer" style="position:relative; height:30px;">
 		Footer:Page{{model.CurrentPage}}
 	</div>
+</div>
+<div style="border:1px solid black; height:300px; width:190px;scroll:auto; position:absolute; right:0px;top:0px;">
+  <div>Here I want to put component attrs...</div>
 </div>
 {{outlet}}

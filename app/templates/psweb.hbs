@@ -1,6 +1,6 @@
     {{tab-bar }}
-    <div class="col-md-2">
-      <div class="list-group" style="overflow-y: auto;maxheight:800px">
+    <div class="col-md-2" style="margin:0px 2px 0px 0px;padding:0px;width: 160px;">
+      <div class="list-group" style="overflow-y: auto;maxheight:800px;">
         <div class="list-group-item">
           Pages ({{model.pages.length}})
         </div>
@@ -14,10 +14,6 @@
 	       {{/each}}
       </div>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-10" style="{{!-- background-color:blue; --}}margin: 0px; padding:0px;width:908px;">
      {{outlet}}
     </div>
-    <div class="col-md-2" style="border:1px solid black; height:300px">
-      <div>Here I want to put component attrs...</div>
-    </div>
-{{size}}

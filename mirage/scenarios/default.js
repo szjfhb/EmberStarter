@@ -11,5 +11,5 @@ export default function( server ) {
   // server.createList('contact', 10);
 
   server.createList('template', 2);
-  server.createList('datafeed', 3);
+  server.createList('datafeed', 5);
 }
