@@ -17,7 +17,8 @@ export default Ember.Component.extend({
 	    SplitLeftRight()
 	    {
 	    	//alert('split current "Cell" to left/right parts.');
-	    	sendAction(SplitLeftRight);
+	    	var currentPage = {page: 1,};
+	    	this.sendAction('SplitLeftRight', currentPage);
 	    },
 	    SplitTopBottom()
 	    {

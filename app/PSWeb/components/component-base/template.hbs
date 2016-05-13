@@ -1,14 +1,8 @@
-<div style="{{heightCSS}}px;background: blue">
+<div style="{{heightCSS}}background: blue">
 	{{#if showTitle}}
 		<div class="title" style="height:20px;background-color:white">
 			<input type="text" style="font-weight:bold; width:auto" value={{data.title}}>
 		</div>
 	{{/if}}
-	<textarea style="{{textHeightCSS}}px;width:100%;padding: 1em;">{{data}}:
-textHeight:{{textHeight}} / {{textHeightCSS}}
-Height:  {{height}} / {{heightCSS}}
-ShowTitle: {{showTitle}}
-Text: {{data.text}}
-component Type: {{data.type}}
-</textarea>
+	<textarea style="{{textHeightCSS}}width:100%;padding: 1em;">{{data.text}}</textarea>
 </div>

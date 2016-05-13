@@ -17,7 +17,16 @@
 		Footer:Page{{model.CurrentPage}}
 	</div>
 </div>
-<div style="border:1px solid black; height:300px; width:190px;scroll:auto; position:absolute; right:0px;top:0px;">
-  <div>Here I want to put component attrs...</div>
+<div style="border:1px solid black; height:300px; width:190px;
+overflow-y:auto; position:absolute; right:0px;top:0px;
+padding:2px;">
+    {{#if model.CurCompont}}
+		Height: {{model.CurCompont.height}}px <br>
+		ShowTitle: {{input type="checkbox" name="ShowTitle" checked=(mut model.CurCompont.showTitle) click='changed'}}<br>
+		component Type: {{model.CurCompont.type}}
+		---{{model.CurCompont.showTitle}}
+	{{else}}
+	Current Component not valid...
+	{{/if}}
 </div>
 {{outlet}}

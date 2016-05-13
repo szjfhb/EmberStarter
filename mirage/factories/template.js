@@ -13,8 +13,8 @@ export default Factory.extend({
 		{
 			var showTitle = faker.random.boolean(); 
 			var components = [{
-				widht:680, height: 740,
-				text:faker.lorem.words(20).join(),
+				width:680, height: 740,
+				text:faker.lorem.words(50).join(),
 				showTitle: showTitle,
 				title:faker.lorem.words(3).join(' '),
 				type: 'text',

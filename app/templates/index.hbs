@@ -4,7 +4,15 @@ Hello You!
 <br/><br/>
 {{filter-listing filteredList=filteredList 
 autoComplete=(action 'autoComplete') search=(action 'search')}}
-
-{{#each model as |rentalHouse|}}
-	{{rental-listing rental=rentalHouse}}
-{{/each}}
+	<p>
+	<code>border-style:</code> <code>none|hidden|dotted|dashed|solid|double| groove|ridge|inset|outset|inherit...
+	</code>
+	</p>
+<div style="height:500px;overflow-y:auto;
+border-top:3px groove rgba(0,50,0, 0.5);
+border-bottom:1px dotted gray;padding-bottom:3px;
+">
+	{{#each model as |rentalHouse|}}
+		{{rental-listing rental=rentalHouse}}
+	{{/each}}
+</div>
