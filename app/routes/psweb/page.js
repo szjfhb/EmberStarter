@@ -1,5 +1,39 @@
 import Ember from 'ember';
 
+// var Person = Ember.Object.extend({
+//   shoppingList: ['eggs', 'cheese'],
+//   init(){
+//   	//alert(this.get('shoppingList').join());
+//   	this.set('List', ['a', 'b', 'c']);
+//   },
+//   log(){
+//   	return "shoppingList: " + this.get('shoppingList').join() + "  List: " +this.get('List').join();
+//   }
+// });
+
+//  var p1= Person.create({
+//   name: 'Stefan Penner',
+//   addItem() {
+//     this.get('shoppingList').pushObject('bacon');
+//     this.get('List').pushObject('d');
+//     //alert('additem1');
+//   }
+// });
+//  p1.addItem();
+
+// var p2= Person.create({
+//   name: 'Robert Jackson',
+//   addItem() {
+//     this.get('shoppingList').pushObject('sausage');
+//     this.get('List').pushObject('e');
+//     //alert('additem2');
+//   }
+// });
+// p2.addItem();
+
+// console.log(p1.log());
+// console.log(p2.log());
+
 export default Ember.Route.extend({
 	//this logic should work as a "get" request, the template saved format need future remake...
 	model: function(param){
