@@ -2,15 +2,15 @@
  padding-left:15px; padding-right:15px;width:700px;position:relative;
  ">
 	<div class="header" style="height:30px;position:relative">
-		Herder: Page {{model.CurrentPage}}/{{model.Totalpage}}{{model.pages}}
+		Herder: Page {{model.CurrentPage}}/{{model.Totalpage}}
 	</div>
 	<div id="contentDiv" 
 	style="border-top:1px solid rgb(0, 0, 0);margin-top:0px;
 	border-bottom:1px solid rgb(0, 0, 0);background-color:gold;">
 		{{#each model.data as |component|}}
-			{{component-base data=component}}
+			{{component-base data=component settingChange=""}}
 		{{/each}}
-		{{!-- {{component-base data=model}} --}}
+		
 	</div>
 
 	<div class="footer" style="position:relative; height:30px;">
@@ -22,9 +22,9 @@ overflow-y:auto; position:absolute; right:0px;top:0px;
 padding:2px;">
     {{#if model.CurCompont}}
 		Height: {{model.CurCompont.height}}px <br>
-		ShowTitle: {{input type="checkbox" name="ShowTitle" checked=(mut model.CurCompont.showTitle) click='changed'}}<br>
+		ShowTitle: {{input type="checkbox" name="showTitle" checked=model.CurCompont.showTitle click=(action 'changed')}}<br>
 		component Type: {{model.CurCompont.type}}
-		---{{model.CurCompont.showTitle}}
+		1{{model.CurCompont.showTitle}}2
 	{{else}}
 	Current Component not valid...
 	{{/if}}

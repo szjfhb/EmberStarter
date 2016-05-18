@@ -12,7 +12,7 @@ export default Ember.Route.extend({
 		var model = this.modelFor('PSWeb.page');
 		//default to page 1 (now do not change template...)
 		var currentPage =model? model.CurrentPage : 1;
-		console.log('get the PSWeb.page page:' + currentPage);
+		// console.log('get the PSWeb.page page:' + currentPage);
 
 		this.transitionTo('PSWeb.page', currentPage);
 	}

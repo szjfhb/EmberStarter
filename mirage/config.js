@@ -34,8 +34,8 @@ export default function() {
   });
   this.get('/templates/:id', (schema, request) =>{
     // console.log('templates/:id');
-    console.log(schema);
-    console.log(request);
+    // console.log(schema);
+    // console.log(request);
     return schema.template.find(request.params.id);
   });
   var templateJson = 'template.json';
