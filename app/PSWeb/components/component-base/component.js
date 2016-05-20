@@ -1,14 +1,20 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+	// tagName: 'div',
 	classNames: ['component-base'],
 	attributeBindings: ['draggable', 'droppable'],
 	draggable: 'true', 
 	droppable: 'true',
 
 	settings:Ember.computed.alias('data'),
+
 	height: Ember.computed('settings.{height}', function(){
 		return this.get('settings').height;
+	}),
+
+	width: Ember.computed('settings.{width}', function(){
+		return this.get('settings').width;
 	}),
 	heightCSS: Ember.computed('height', function(){
 			return Ember.String.htmlSafe("height:" + this.get('height') + "px;");

@@ -1,8 +1,7 @@
-<div style="{{heightCSS}}background: blue">
+<div style="{{heightCSS}}background:blue;width:{{width}}px;">
 	{{#if showTitle}}
-		<div class="title" style="height:20px;background-color:white">
-			{{input type="text" class="inputTitle" value=data.title}}
-		</div>
+	{{input type="text" class="inputTitle" value=data.title}}
+	<div class="resize"></div>
 	{{/if}}
 	<textarea style="{{textHeightCSS}}width:100%;padding: 1em;">{{data.text}}</textarea>
 </div>

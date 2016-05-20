@@ -1,19 +1,17 @@
 <div style="border:1px solid #ddd; height:800px;padding:3px;
  padding-left:15px; padding-right:15px;width:700px;position:relative;
  ">
-	<div class="header" style="height:30px;position:relative">
+	<div class="header">
 		Herder: Page {{model.CurrentPage}}/{{model.Totalpage}}
 	</div>
-	<div id="contentDiv" 
-	style="border-top:1px solid #ddd;margin-top:0px;
-	border-bottom:1px solid #ddd;background-color:gold;">
+	<div id="contentDiv">
 		{{#each model.data as |component|}}
 			{{component-base data=component settingChange=""}}
 		{{/each}}
 		
 	</div>
 
-	<div class="footer" style="position:relative; height:30px;">
+	<div class="footer">
 		Footer:Page{{model.CurrentPage}}
 	</div>
 </div>
@@ -23,7 +21,10 @@ padding:2px;">
     {{#if model.CurCompont}}
 		Title:{{input value=model.CurCompont.title size="18"}}
 		ShowTitle: {{input type="checkbox" name="showTitle" checked=model.CurCompont.showTitle}}<br>
-		component Type: {{model.CurCompont.type}}
+		Type: {{model.CurCompont.type}}<br>
+		Height: {{input value=model.CurCompont.height size=8}}<br>
+		Width: {{input value=model.CurCompont.width size=8}}<br>
+		{{model.CurCompont.width}}
 	{{else}}
 	No component selected.
 	{{/if}}
