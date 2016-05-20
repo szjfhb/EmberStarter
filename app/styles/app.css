@@ -92,3 +92,12 @@ body
   width: 144px;
   height: 120px;
 }
+
+.inputTitle{
+  height: 20px;
+  width: 668px;
+  font-weight: bold;
+}
+.ember-text-field{
+  height:20px;
+}

@@ -1,12 +1,12 @@
-<div style="border:1px solid rgb(0,0,0); height:800px;padding:3px;
+<div style="border:1px solid #ddd; height:800px;padding:3px;
  padding-left:15px; padding-right:15px;width:700px;position:relative;
  ">
 	<div class="header" style="height:30px;position:relative">
 		Herder: Page {{model.CurrentPage}}/{{model.Totalpage}}
 	</div>
 	<div id="contentDiv" 
-	style="border-top:1px solid rgb(0, 0, 0);margin-top:0px;
-	border-bottom:1px solid rgb(0, 0, 0);background-color:gold;">
+	style="border-top:1px solid #ddd;margin-top:0px;
+	border-bottom:1px solid #ddd;background-color:gold;">
 		{{#each model.data as |component|}}
 			{{component-base data=component settingChange=""}}
 		{{/each}}
@@ -17,16 +17,15 @@
 		Footer:Page{{model.CurrentPage}}
 	</div>
 </div>
-<div style="border:1px solid black; height:300px; width:190px;
+<div style="border:1px solid #ddd; height:300px; width:205px;
 overflow-y:auto; position:absolute; right:0px;top:0px;
 padding:2px;">
     {{#if model.CurCompont}}
-		Height: {{model.CurCompont.height}}px <br>
-		ShowTitle: {{input type="checkbox" name="showTitle" checked=model.CurCompont.showTitle click=(action 'changed')}}<br>
+		Title:{{input value=model.CurCompont.title size="18"}}
+		ShowTitle: {{input type="checkbox" name="showTitle" checked=model.CurCompont.showTitle}}<br>
 		component Type: {{model.CurCompont.type}}
-		1{{model.CurCompont.showTitle}}2
 	{{else}}
-	Current Component not valid...
+	No component selected.
 	{{/if}}
 </div>
 {{outlet}}

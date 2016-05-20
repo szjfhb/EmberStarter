@@ -7,40 +7,30 @@ export default Ember.Component.extend({
 	droppable: 'true',
 
 	settings:Ember.computed.alias('data'),
-	height: Ember.computed('settings', function(){
+	height: Ember.computed('settings.{height}', function(){
 		return this.get('settings').height;
 	}),
 	heightCSS: Ember.computed('height', function(){
-			return Ember.String.htmlSafe("height:" + this.get('settings').height + "px;");
+			return Ember.String.htmlSafe("height:" + this.get('height') + "px;");
 			}),
-	showTitle: Ember.computed('settings', function(){
-		//console.log(this.get('settings').showTitle); 
+	showTitle: Ember.computed('settings.{showTitle}', function(){
 		return this.get('settings').showTitle;
 		}),
-	titleHeight: Ember.computed('height', function(){
+	titleHeight: Ember.computed('height', 'settings.{titleHeight}', function(){
 		var value = this.get('settings').titleHeight || 20;
 		this.get('settings').titleHeight = value;
-
-		if(!this.get('showTitle')) {
-			value = 0;
-		}
-
 		console.log("Current titleHeight: "+ value);
 		return value;
 		}),
-	textHeight: Ember.computed('height', function(){
+	textHeight: Ember.computed('height', 'showTitle', 'titleHeight', function(){
 		var value = this.get('height'); 
 		if(this.get('showTitle')){
 			value = value - this.get('titleHeight');
 		}
 		return value;
 	}),
-	textHeightCSS: Ember.computed('height', function(){
-			var textheight = this.get('height'); 
-			if(this.get('showTitle')){
-				textheight = textheight - this.get('titleHeight');
-			}
-			return Ember.String.htmlSafe("height:" + textheight + "px;");
+	textHeightCSS: Ember.computed('textHeight', function(){
+			return Ember.String.htmlSafe("height:" + this.get('textHeight') + "px;");
 		}),
 
 	dragOver(){
@@ -53,6 +43,6 @@ export default Ember.Component.extend({
 		},
 
 	beforerender:function (argument) {
-			// body...
+			console.log('beforerender: ' + argument);
 		}
 });

@@ -1,20 +1,3 @@
 	<h1>Oh No!</h1>
 	<p>The page your are looking for (<a href={{model.CurrentURL}}>{{model.CurrentURL}}</a>) not exist in this website.
 		You can contact <a href="mailto:jfhb@msn.com">Odin Xiong</a> for more info.</p>
-		isShow:{{model.data.isShow}}
-		{{#if model.data.isShow}}
-		<button {{action 'ToggelIt'}}>Hide</button>
-		<pre><p><code>{{model.data.text}}</code></p></pre>
-		{{else}}
-		<button {{action 'ToggelIt'}}>Detail</button>
-		{{/if}}
-
-		<button {{action 'toogle'}} style="display:block">Detail</button>
-		{{#if model.toogle}}
-			<pre><p><code>{{model.data.text}}</code></p></pre>
-		{{/if}}
-		<div class="container">
-			{{model.toogle}}
-			{{data-transfer data=model}}
-
-		</div>
