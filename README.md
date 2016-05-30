@@ -2,8 +2,7 @@
 Test project for my Ember Learning...
 # My-app
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Try to build something to alingn the design of current clientside PS. this project kind of can called "webps".
 
 ## Prerequisites
 
@@ -24,8 +23,8 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* `emberstart.bat` will auto kill before ember thread, and start the project again.
+* Visit your app at [http://localhost](http://localhost). I have modify the default port.
 
 ### Code Generators
 
@@ -43,7 +42,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+I tried to use the [surge](www.surge.sh) to deploy it before.
+that's tool is cool to depoly the ember project only in command prompt.
 
 ## Further Reading / Useful Links
 
